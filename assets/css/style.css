@@ -1,11 +1,160 @@
+
+/*
+hot pink: #fb5e60;
+dark blue: #0f6b87;
+light blue #e7f5fa
+
+font-family: 'Prompt', sans-serif;
+font-family: 'Baloo Paaji', cursive;
+*/
+*{
+	font-family: 'Prompt', sans-serif;
+}
+
 body{
 	background-color: #e7f5fa;
 	margin: 0;
 	padding: 0;
+	font-family: 'Prompt', sans-serif;
 }
+
+.img-responsive{
+	width: 100%;
+}
+
+.text-uppercase{
+	text-transform: uppercase;
+}
+
+/*-----------Nav Bar--------------*/
+.menu{
+	
+	width: 100%;
+	background-color: #0f6b87;
+}
+
+.group{
+	width: 100%;
+}
+
+.der{
+	color: white;
+	text-decoration: none;
+	padding: 20px 10px;
+	float: right;
+}
+
+.logo{
+	float: left;
+	text-decoration: none;
+	color: white;
+	font-family: 'Baloo Paaji', cursive;
+	font-size: 2rem;
+}
+
+span{
+	color: #fb5e60;
+	font-size: 2rem;
+	font-family: 'Baloo Paaji', cursive;
+}
+
+/*-------------Primera Seccion----------*/
 
 .primera{
 	background-image: url(../img/img-1.jpg);
 	background-size: cover;
-	height: 400px;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+	padding: 5% 0;
+
+}
+
+.primer-cuadro{
+	background-color: rgba(15,107,135, 0.8);
+	text-align: center;
+	
+
+}
+
+.primer-cuadro h1{
+	font-family: 'Baloo Paaji', cursive;
+	color: #fb5e60;
+}
+
+/*-------------historias de conejos-----------------*/
+
+.segundo{
+	background-color: #fff;
+}
+
+.cada-historia{
+	display: inline-block;
+}
+
+.historias{
+	background-color: #0f6b87;
+}
+
+.historias p{
+	color: #fff;
+	font-family: 'Prompt', sans-serif;
+}
+
+/*----------tercera parte-------------*/
+
+.videos{
+	display: inline-block;
+}
+
+.tercer{
+	background-color: #0f6b87;
+}
+
+.redes-col{
+	margin: 0;
+}
+
+.col-derecha{
+	width: 100%;
+}
+
+.col-derecha,
+.columna-grande{
+	background-color: #e7f5fa;
+}
+
+.tercer h3,
+.historias h3{
+	color: #fb5e60;
+	font-family: 'Baloo Paaji', cursive;
+}
+
+input {
+	width: 90%;
+	margin: 5%;
+	line-height: 30px;
+	border-radius: 5px;
+	border: none;
+}
+
+.search{
+	border-radius: 5px;
+}
+
+/*---------------footer------------------*/
+
+.conejitos {
+height: 100px;
+background-image: url('../img/bunny-head.png');
+background-size: contain;
+background-repeat-y: no-repeat;
+margin: 10px 0 0;
+}
+
+.last{
+	background-color: #0f6b87;
+	color: white;
+	padding: 2% 0;
+	border-top: 2px solid #fb5e60;
 }
