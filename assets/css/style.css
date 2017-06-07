@@ -1,0 +1,11 @@
+body{
+	background-color: #e7f5fa;
+	margin: 0;
+	padding: 0;
+}
+
+.primera{
+	background-image: url(../img/img-1.jpg);
+	background-size: cover;
+	height: 400px;
+}
